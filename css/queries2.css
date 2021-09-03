@@ -1,0 +1,89 @@
+@media only screen and (max-width: 522px) {
+    .nav-area {
+        float:left;
+        font-size:10px;
+     
+        margin-left:60px;
+        overflow:None;
+    }
+    .nav-area li a{
+        font-size:10px;
+    }
+    .socialine{
+        margin-right:120px;
+    }
+    .akims {
+        margin-left:50px;
+            font-size:5px;
+        padding-bottom:10px;
+        width:100%;
+        overflow:none;
+    }
+   
+    .nav-area a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration:none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+    
+    .about-paragraph {
+        font-size:10px;
+        margin-top:10px;
+    }
+    .add-cart {
+         padding:2px;
+    }
+    .ruozas {
+        margin:10px;
+        padding:0 10px;
+        width:100%;
+        display:none;
+    }
+    .zoom {
+        padding-right:10px;
+    }
+    .product-header {
+    width:90%;
+    padding-right:20px;
+}
+    .ion-social-twitter,
+.ion-social-facebook,
+.ion-social-snapchat,
+.ion-social-instagram
+{
+    
+    font-size: 20px;
+    margin-left:0px;
+}
+    .zoom {
+        width:50%;
+        height:400px;
+       
+    }
+    
+.bhoomika1 {
+    display:none;
+}
+.bhoomika {
+    display:nne;
+    
+}
+     .total {
+        margin-left:-20px;
+        
+    }
+    .basketTotal {
+        margin-right:20px;
+    }
+    .product,
+    .price,
+    .total,
+    .quantity
+    {
+        font-size:15px;
+    }
+    
+}

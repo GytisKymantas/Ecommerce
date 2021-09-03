@@ -1,0 +1,420 @@
+*
+{margin:0; 
+padding:0;
+    
+    
+    
+}
+
+
+.ruozas {
+    background-position:bottom;
+}
+.inputSizing {
+    margin-left:0px;
+    margin-top:0px;
+}
+
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size:20px;
+    
+}
+.products-container ion-icon {
+    font-size:25px;
+    color:blue;
+    margin-left:10px;
+    margin-right:10px;
+    cursor:pointer;
+    
+}
+.product-header {
+    width:100%;
+    max-width: 650px;
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+.price {
+    width:15%;
+    
+    display:flex;
+    align-items:center;
+}
+.total {
+    width:10%;
+  
+    display:flex;
+    align-items:center;
+}
+.product {
+    width:45%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px 0;
+    border-bottom: 1 px solid lightgray;
+}
+.quantity {
+    width:30%;
+    
+    display: flex;
+    align-items:center;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products img {
+    width: 75px;
+}
+
+
+.basketTotalTitle {
+    width:30%;
+}
+.basketTotal {
+    width: 10%;
+}
+.product ion-icon {
+    cursor:pointer;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+    
+    background: #000;
+    text-align: center;
+    width:960px;
+    margin: 20px auto;
+    
+}
+
+.nav-area,
+.nav-area ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.nav-area li {
+    position: relative;
+}
+.nav-area a{
+    padding: 15px 20px;
+    display: block;
+    text-decoration:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+    
+.nav-area a:hover {
+        background: deeppink;
+    
+    }
+
+.nav-area > li {
+    display: inline-block;
+    vertical-align:top;
+    margin-left:-4px;
+}
+.nav-area > li:first-child {
+    margin-left: 0;
+}
+
+.nav-area > li > ul {
+    text-align: left;
+    display:none;
+    background: #000;
+    position:absolute;
+    top:100%;
+    left:0;
+    width: 240px;
+    z-index:99999;
+    
+}
+nav-area > li > ul > li > ul {
+    text-align: left;
+    display: none;
+    background: #000;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index:999999;
+}
+
+.kazkas {
+    height:70px;
+    background-color:black;
+    margin-top:-20px;
+  
+   
+}
+
+.kazkas1 li {
+    display:table-row;
+    margin:10px;
+    clear: left;
+    float:left;
+    
+}
+
+
+
+
+.nav-area,
+.nav-area ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+}
+
+.nav-area li {
+    position: relative;
+}
+.nav-area a{
+    padding: 15px 20px;
+    display: block;
+    text-decoration:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+    
+.nav-area a:hover {
+        background: deeppink;
+    
+    }
+
+.nav-area > li {
+    display: inline-block;
+    vertical-align:top;
+    margin-left:-4px;
+}
+.nav-area > li:first-child {
+    margin-left: 0;
+}
+
+.nav-area > li > ul {
+    text-align: left;
+    display:none;
+    background: gray;
+    position:absolute;
+    top:100%;
+    left:0;
+    width: 240px;
+    z-index:99999;
+}
+nav-area > li > ul > li > ul {
+    text-align: left;
+    display: none;
+    background: #000;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index:999999;
+}
+
+
+
+
+a {
+    font-size: 20px;
+    color: azure;
+    padding-right:25px;
+    float: right;
+}
+
+.cart {
+    font-size: 20px;
+    color: azure;
+    padding-right: 25px;
+    float: right;
+
+}
+
+.menu {
+    margin-left:50px;
+    text-align: center;
+    width:600px;
+    margin: 20px auto;
+    
+    
+}
+
+
+.js--wp-1 {
+    opacity:0;
+}
+
+.js--wp-1.animated {
+    opacity:1;
+}
+
+.akims{
+    display:inline-flex;
+    justify-content:center;
+    margin-left:260px;
+    font-size:15px;
+    letter-spacing: 2px;
+    background-color:;
+}
+.balticGrace{
+    width:70px;
+    height:30px;
+    background-color:white;
+    margin-top:0px;
+    margin-bottom:-4px
+}
+
+p {font-weight: 800;
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin: 5px 1px;
+}
+
+.ion-ios-cart-outline {
+    font-size:20px;
+    margin-right:5px;
+    margin-top:1px;
+    padding-left:3px;
+    padding-right:4px;
+    border-radius:30px;
+    background-color:orange;
+    
+    
+}
+
+.add-cart {
+    background-color:black;
+    color:white;
+    padding:3px;
+}
+.add-cart:hover {
+    background-color:hotpink;
+ 
+}
+
+.about-theme {
+    font-size:30px;
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom:30px;
+}
+.about-paragraph {
+    font-size:15px;
+    margin-left:0px;
+    margin-top:35px;
+}
+.candleSizes {
+    height:20px;
+}
+.selectTitles {
+    display:flex;
+    margin-top:10px;
+    font-size:12px;
+    
+}
+.TitleOne {
+    
+    margin-right:30px;
+}
+.thePrice {
+    font-size:15px;
+    color:gray;
+}
+
+
+
+
+/* ---------------------- */
+/* FOOTER */
+/* ---------------------- */
+
+
+/* daug sudo */
+
+.tarpas {
+    background-color:white;
+}
+#image {
+    width:100%;
+    max-width:550px;
+    margin:20px;
+    border-radius:0px;
+    
+}
+
+/*.single-portfolio {
+    position:relative;
+    overflow:hidden;
+}
+.portfolio-img {
+    transition: all .5s;
+    padding:30px;
+}
+.portfolio-text {
+    position:absolute;
+    bottom:0;
+    padding:10px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    transform: translateY(100%);
+    
+}
+
+.portfolio-text p {
+    text-align: justify;
+}
+
+.single-portfolio:hover .portfolio-text {
+    transform: translateY(0);
+}
+.single-portfolio:hover .portfolio-img {
+    transform: scale(1.15);
+}
+.portfolio-img {
+    width:100%;
+    height:300px;
+}
+*/
+
+
+.bhoomika1 {
+    display:hen;
+}
+.bhoomika {
+    
+}
+
+

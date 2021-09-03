@@ -1,0 +1,40 @@
+.form {
+  margin-bottom: 5rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-header {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  & > button {
+    width: 10rem;
+    padding: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    &:hover {
+      background: hotpink;
+    }
+  }
+
+  & input {
+    width: 50%;
+    padding: 1rem;
+    border: 3px solid black;
+  }
+  & textarea {
+    padding: 1rem;
+    width: 50%;
+    border: 3px solid black;
+  }
+}

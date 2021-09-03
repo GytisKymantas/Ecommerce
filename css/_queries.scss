@@ -1,0 +1,124 @@
+@media only screen and (max-width: 900px) {
+  .main p {
+    left: 23%;
+  }
+  .main h1 {
+    left: 25%;
+  }
+  .sticky .navigation .headliner p {
+    display: flex;
+  }
+  .sticky .navigation .headliner {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 55% !important;
+  }
+  .main p {
+    // left: 18%;
+    // font-size: 2rem;
+  }
+  .main h1 {
+    // font-size: 3rem;
+  }
+  .discovery-cards {
+    grid-template-columns: 75%;
+    gap: 5%;
+    height: 100%;
+  }
+  .sales-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-me {
+    grid-template-columns: 1fr;
+  }
+  .about-container {
+    padding: 4rem;
+  }
+  .news-letter {
+    // padding: 5rem;
+  }
+  .news-container {
+    grid-template-columns: 1fr;
+    margin-top: 17rem;
+  }
+  .news-wrapper {
+    padding: 4rem;
+  }
+  .features-section {
+    height: 100%;
+  }
+  .features-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 50% !important;
+  }
+  .main p {
+    // left: 15%;
+    // font-size: 2rem;
+  }
+  .main h1 {
+    // font-size: 3rem;
+    // left: 30%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 45% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main p {
+    left: 19%;
+  }
+  .main h1 {
+    left: 21%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 40% !important;
+  }
+  .sales-container {
+    grid-template-columns: 75%;
+    justify-content: center;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .socialsfooter {
+    font-size: 4rem;
+  }
+
+  .container__text {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .discovery-cards {
+    grid-template-columns: 75%;
+  }
+  .main h1 {
+    width: 20%;
+    top: 20%;
+  }
+  .main p {
+    width: 50%;
+    top: 47%;
+    left: 22%;
+  }
+  .headliner p {
+    font-size: 1rem;
+  }
+}

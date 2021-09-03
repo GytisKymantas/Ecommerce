@@ -1,0 +1,156 @@
+
+/* big tablet to 1200px (widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px){
+    
+   
+}
+
+/* small tablet to big tablet: from 768bto 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+
+
+
+/* small phones to small tablets: from 481 to 767*/
+@media only screen and (max-width: 500px) {
+
+    .temporary {
+    display:inline-block;
+    float:left;
+    margin-right:230px;
+        padding-top:20px;
+    
+}
+    .nav-area {
+        float:left;
+        font-size:10px;
+     
+        margin-left:60px;
+        overflow:None;
+    }
+    .nav-area li a{
+        font-size:10px;
+    }
+    .socialine{
+        margin-right:120px;
+    }
+    .akims {
+        margin-left:50px;
+            font-size:5px;
+        padding-bottom:10px;
+        width:100%;
+        overflow:none;
+    }
+    .pirmasis {
+    font-size:20px;
+    
+}
+.gandonas {
+    font-size:15px;
+    padding-right:60px;
+}
+
+ 
+    .trejybe {
+        margin:0 20px;
+        display:inline-block;
+    }
+    .span-1-of-3 {
+	 width: 33.33%;
+}
+    .col span-1-of-3 {
+       
+        
+    }
+    .add-cart {
+        display:non;
+        font-size:10px;
+        margin-left:10px;
+    }
+    cite {
+        display:nne;
+        margin-left:0px;
+    }
+    .new-grid {
+        height:2000px;
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .rowas { margin-left: 110px;
+        margin-right: 0px;
+        
+    }
+    body,html {
+        margin:0;
+        padding:0;
+        width:100%;
+        overflow:none;
+    }
+    .boxelis {
+        padding-left:30px;
+    }
+    .boxas{
+        margin-left:30px;
+    }
+    .bauda{
+        width:100%;
+        margin-left:0px;
+        
+    }
+    .trejybe {
+        margin-left:-105px;
+    }
+    .tarpas {
+        display:none;
+    }
+    
+.ion-social-twitter,
+.ion-social-facebook,
+.ion-social-snapchat,
+.ion-social-instagram
+{
+    
+    font-size: 20px;
+    margin-left:0px;
+    
+
+}
+.footer-nav li{
+    margin-left:-20px;
+    font-size:15px;
+    display:block;
+}
+
+.copyright {
+    font-size:10px;
+    text-align:center;
+    margin-right:10px;
+    margin-top:90px;
+}
+
+.emailas {
+    margin-left:-110px;
+}
+ .news-letter {
+        height:200px;
+    }
+    .bybiurinkinys {
+        padding-right:80px;
+    }
+    .total {
+        margin-left:-20px;
+        color:Red;
+    }
+}
+/* for small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+     
+     .trejybe {
+        
+        display:block;
+    }
+} 

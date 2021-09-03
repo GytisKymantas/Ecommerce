@@ -1,0 +1,53 @@
+.cart-wrap {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  gap: 0.5rem;
+}
+.quantity {
+  display: flex;
+  gap: 0.5rem;
+  & span {
+    display: flex;
+    align-items: center;
+  }
+  & ion-icon {
+    cursor: pointer;
+    font-size: 2rem;
+  }
+}
+.close-circle {
+  font-size: 2rem;
+}
+.product {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & img {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+.basket-btn {
+  width: 7rem;
+  height: 2rem;
+  background: black;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,49 @@
+// DISCOVERY
+.discovery-section {
+  margin-top: 15rem;
+}
+.discovery-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  flex-direction: column;
+  margin-bottom: 15rem;
+  &:after {
+    display: block;
+    height: 2px;
+    background-color: pink;
+    content: " ";
+    width: 20%;
+    margin: 0 auto;
+  }
+}
+.discovery-textgap {
+  margin: 30rem 0;
+}
+.discovery-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 5rem;
+  height: 50vh;
+  & img {
+    width: 100%;
+  }
+}
+.discovery-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  width: 100% !important;
+  & h2 {
+    text-align: center;
+    background: black;
+    font-size: 2rem;
+    color: white;
+  }
+}

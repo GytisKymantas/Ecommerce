@@ -1,0 +1,34 @@
+@keyframes animate {
+  0%,
+  100% {
+    background-image: linear-gradient(
+        rgba(255, 243, 178, 0.1),
+        rgba(0, 0, 0, 1)
+      ),
+      url(../images/Diksha.jpg);
+    background-position: center;
+  }
+  25% {
+    background-image: linear-gradient(
+        rgba(255, 243, 178, 0.1),
+        rgba(0, 0, 0, 1)
+      ),
+      url(../images/candles.jpg);
+    background-position: top;
+  }
+  50% {
+    background-image: linear-gradient(
+        rgba(255, 243, 178, 0.1),
+        rgba(0, 0, 0, 1)
+      ),
+      url(../images/d-min.jpg);
+    background-position: bottom;
+  }
+  75% {
+    background-image: linear-gradient(
+        rgba(255, 243, 178, 0.1),
+        rgba(0, 0, 0, 1)
+      ),
+      url(../images/b-min.jpg);
+  }
+}

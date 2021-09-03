@@ -1,0 +1,29 @@
+.mobile-nav {
+  font-size: 4rem;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-area {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  .mobile-nav {
+    font-size: 4rem;
+    display: block;
+    & .knopke-1 {
+      display: block;
+      color: white;
+    }
+    & .knopke-2 {
+      display: none;
+      color: white;
+    }
+  }
+
+  .menu {
+    justify-content: flex-end;
+  }
+}
